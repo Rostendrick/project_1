@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    font-size: 19px;
+}
+
+header {
+    height: 465px;
+    background-color: aqua;
+    padding-left: 84px;
+    padding-top: 36px;
+    background: linear-gradient(
+  rgba(160, 119, 6, 0.6),  
+  rgba(0, 0, 0, 0.75)),
+    url(https://user-images.githubusercontent.com/49607665/94929728-af51ca80-04ef-11eb-9659-4ea6519e4f75.jpg);
+    background-size: 100% 123%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex: 0.83;
+}
+
+main {
+    margin-top: 100px;
+    width: 100%;
+    height: 100px;
+}
+
+.header-content {
+    flex: 0.6
+}
+.name {
+    text-transform: uppercase;
+}
+
+.header-h1 {
+    display: block;
+    margin-top: 40px;
+    font-size: 45px;
+    line-height: 1.27;
+    font-weight: bold;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+.header-h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    line-height: 1.55;
+    color: white;
+    opacity: 0.5;
+}
+
+.but {
+    flex: 0.4;
+}
+
+.booking {
+    position: relative;
+    height: 34px;
+    left: 162px;
+    top: -5px;
+    font-size: 12px;
+}
+
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+
+.main-h2 {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 32px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.adv-list {
+    width: 60%;
+    margin-top: 85px;
+    margin-left: 18.5%;
+}
+
+li{
+    margin-bottom: 20px;
+    font-size: 20px;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    background-image: url(https://www.flaticon.com/svg/static/icons/svg/929/929440.svg);
+    background-size: 27px 27px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    background-position: 0 center;
+}
+
+.examples {
+    display: flex;
+    background-color: rgb(219, 152, 19);
+    padding: 10% 10%;
+}
+
+.examples img {
+    margin-right: 1%;
+}
+
+.author {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.author h1{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.author-content {
+    padding: 5%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.author-image {
+    flex: 0.5;
+}
+
+.author-image img {
+    width: 100%;
+}
+
+.author-text {
+    padding: 3%;
+    flex: 0.5;
+}
+.author-text h2 {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.author-h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 1.55;
+    color: black;
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+
+.about-author {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.author-hr {
+    width: 10%;
+    background-color: orange;
+    color: orange;
+    border: 2px solid orange;
+    margin: 30px 0px;
+}
